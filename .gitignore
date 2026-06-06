@@ -1,23 +1,86 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Bb]in/
+[Oo]bj/
+build/
+*_UpgradeReport_Files/
+Backup*/
+
+# Visual Studio cache/options
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.aps
+*.ncb
+*.sdf
+*.cache
+*.dbmdl
+*.opendb
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+
+# Packages
+*.nupkg
+*.snupkg
+
+# Others
+*.class
+*.jar
+*.war
+*.ear
+*.tmp
+*.temp
+*.obj
+*.pyc
+*.pyo
+*.pyd
+*.sbr
+*.db
+*.db-journal
+.DS_Store
+*.DS_Store
+*.swp
+*.swo
+*~
